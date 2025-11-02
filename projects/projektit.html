@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/common/testi.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilia Al-Zararee</title>
+</head>
+<body>
+    <nav id="navi">
+        <ul class="nav-left">
+            <li><a href="www.linkedin.com/in/emilia-al-zararee-556566325"><i class="fa-brands fa-linkedin"></i></a> </li>
+            <li><a href="https://github.com/emiliaalzararee"><i class="fa-brands fa-square-github"></i></a></li>
+        </ul>
+        <ul class="nav-center">
+            <li><a href="/landing/english.html">Minusta</a></li>
+            <li><a href="/certificates/certificates.html">sertifikaatit</a></li>
+            <li><a href="#">Projektit</a></li>
+            
+        </ul>
+        <ul>
+            <li><a href="#">FI</a></li>
+            <li><a href="/projects/projects.html">EN</a></li>
+        </ul>
+    </nav>
+
+<section class="certificate-gallery">
+  <h2 data-aos="fade-up">Minun Projektini</h2>
+
+  <div class="certificate-grid">
+
+    <div class="certificate-card" data-aos="fade-up">
+      <img src="/common/kuvat/projekti-kuvat/SALAT6.png" 
+           alt="Database Design"
+           class="gallery-item"
+           data-title="Tietokantasuunnittelu"
+           data-description="Tämä on tietokantasuunnittelu sovellukselle, joka näyttää käyttäjälle rukousajat. Käyttäjä voi valita, mistä rukouksista haluaa ilmoituksia ja tarvittaessa mykistää muut. Sovellus seuraa käyttäjän sijaintia ja antaa rukousaikoihin liittyviä ilmoituksia sijainnin perusteella.">
+    </div>
+
+    <div class="certificate-card" data-aos="fade-up" data-aos-delay="150">
+      <img src="/common/kuvat/projekti-kuvat/Näyttökuva 2025-11-01 215121.png" 
+           alt="html-webpage"
+           class="gallery-item"
+           data-title="HTML-Sivu"
+           data-description="Tämä on staattinen HTML-sivusto, joka on suunniteltu esittelemään osaamistani HTML:ssä ja CSS:ssä. Sivuston sisältö keskittyy suun terveyteen.">
+    </div>
+
+    <div class="certificate-card" data-aos="fade-up" data-aos-delay="300">
+      <img src="/common/kuvat/projekti-kuvat/TODOprojekti2.png" 
+           alt="To Do"
+           class="gallery-item"
+           data-title="To Do sovellus"
+           data-description="Tämä on interaktiivinen To-Do -lista-sovellus, joka on rakennettu HTML:llä, CSS:llä ja JavaScriptillä. Sovellus mahdollistaa käyttäjien hallita tehtäviä ja tallentaa ne selaimeen myöhempää käyttöä varten">
+    </div>
+
+  </div>
+</section>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close modal-close">&times;</span>
+    <div class="modal-inner">
+      <img id="modal-img" src="" alt="Certificate">
+      <div class="modal-text">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer>
+        <div class="row" style="width: 800px;">
+            <div class="col-md-6">
+                <p>Copyright &copy; 2024 Emilia Al-Zararee</p>
+            </div>
+         </div>
+    </footer>
+
+ <script src="/common/common.js"></script>
+ <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+ <script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 120,
+    });
+</script>
+<script src="/certificates/sertifikaatti.js"></script>
+</body>
+</html>

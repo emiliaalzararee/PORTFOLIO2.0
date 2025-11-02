@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/common/testi.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emilia Al-Zararee</title>
+</head>
+<body>
+    <nav id="navi">
+        <ul class="nav-left">
+            <li><a href="www.linkedin.com/in/emilia-al-zararee-556566325"><i class="fa-brands fa-linkedin"></i></a> </li>
+            <li><a href="https://github.com/emiliaalzararee"><i class="fa-brands fa-square-github"></i></a></li>
+        </ul>
+        <ul class="nav-center">
+            <li><a href="/landing/english.html">About</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="#contact">Projects</a></li>
+            
+        </ul>
+        <ul>
+            <li><a href="/certificates/sertifikaatit.html">FI</a></li>
+            <li><a href="#">EN</a></li>
+        </ul>
+    </nav>
+
+<section class="certificate-gallery">
+  <h2 class="certificate-title" data-aos="fade-up">Certificates</h2>
+
+  <div class="certificate-grid">
+
+    <div class="certificate-card" data-aos="fade-up">
+      <img src="/common/kuvat/sertifikaatit/GitHub-sertifikaatti.png" 
+           alt="GitHub Certificate"
+           class="gallery-item"
+           data-title="GitHub Basics"
+           data-description="Learned the fundamentals of Git and GitHub, including version control, repositories, branching, and collaborative workflows.">
+    </div>
+
+    <div class="certificate-card" data-aos="fade-up" data-aos-delay="150">
+      <img src="/common/kuvat/sertifikaatit/inbound-marketing-sertifikaatti.png" 
+           alt="Inbound Marketing Certificate"
+           class="gallery-item"
+           data-title="Inbound Marketing"
+           data-description="Gained knowledge on inbound marketing strategies, content creation, lead nurturing, and audience targeting.">
+    </div>
+
+    <div class="certificate-card" data-aos="fade-up" data-aos-delay="300">
+      <img src="/common/kuvat/sertifikaatit/SocialMedia-sertifikaatti.png" 
+           alt="Social Media Certificate"
+           class="gallery-item"
+           data-title="Social Media Marketing"
+           data-description="Enhanced skills in social media strategy, audience engagement, and analytics for various platforms.">
+    </div>
+    <div class="certificate-card" data-aos="fade-up" data-aos-delay="450">
+      <img src="/common/kuvat/sertifikaatit/PowerAutomate-sertifikaatti.png" 
+           alt="Power Automate Certificate"
+           class="gallery-item"
+           data-title="Power Automate"
+           data-description="Learned to automate workflows, manage processes efficiently, and integrate tools for business solutions">
+    </div>
+    <div class="certificate-card" data-aos="fade-up" data-aos-delay="600">
+    <img src="/common/kuvat/sertifikaatit/VSCode-sertifikaatti.png" 
+           alt="VSCode Certificate"
+           class="gallery-item"
+           data-title="VSCode Certificate"
+           data-description="Improved productivity using VSCode, mastering extensions, debugging, and version control integration">
+    </div>
+</section>
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close modal-close">&times;</span>
+    <div class="modal-inner">
+      <img id="modal-img" src="" alt="Certificate">
+      <div class="modal-text">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer>
+        <div class="row" style="width: 800px;">
+            <div class="col-md-6">
+                <p>Copyright &copy; 2024 Emilia Al-Zararee</p>
+            </div>
+         </div>
+    </footer>
+
+ <script src="/common/common.js"></script>
+ <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+ <script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 120,
+    });
+</script>
+<script src="/certificates/sertifikaatti.js"></script>
+</body>
+</html>
