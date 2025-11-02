@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="/common/testi.css">
+    <link rel="stylesheet" href="../common/testi.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emilia Al-Zararee</title>
 </head>
@@ -19,13 +19,13 @@
             <li><a href="https://github.com/emiliaalzararee"><i class="fa-brands fa-square-github"></i></a></li>
         </ul>
         <ul class="nav-center">
-            <li><a href="/landing/finnish.html">Minusta</a></li>
-            <li><a href="/certificates/sertifikaatit.html">Sertifikaatit</a></li>
-            <li><a href="#contact">Projektit</a></li>
+            <li><a href="#">Minusta</a></li>
+            <li><a href="../certificates/sertifikaatit.html">Sertifikaatit</a></li>
+            <li><a href="../projects/projektit.html">Projektit</a></li>
         </ul>
         <ul>
-            <li><a href="/landing/finnish.html">FI</a></li>
-            <li><a href="/landing/english.html">EN</a></li>
+            <li><a href="#">FI</a></li>
+            <li><a href="../landing/english.html">EN</a></li>
         </ul>
     </nav>
 
@@ -35,7 +35,7 @@
 <div class="flex-container">
 
     <div class="kuva-box">
-        <img src="/common/kuvat/WhatsApp Image 2025-10-14 at 16.03.54.jpeg"  class="profile-pic" >
+        <img src="../common/kuvat/WhatsApp Image 2025-10-14 at 16.03.54.jpeg"  class="profile-pic" >
     </div>
 
     <div class="esittely">
@@ -92,7 +92,7 @@
     <br><br><br>
          <div class="slider-header">
             
-            <a href="/certificates/sertifikaatit.html" class="sertifikaattilinkki">SERTIFIKAATIT</a>
+            <a href="../certificates/sertifikaatit.html" class="sertifikaattilinkki">SERTIFIKAATIT</a>
         </div>
 
 
@@ -101,11 +101,11 @@
         <button class="btn left" id="prev"><i class="fa-solid fa-chevron-left"></i></button>
 
         <div class="carousel">
-            <img src="/common/kuvat/sertifikaatit/GitHub-sertifikaatti.png" alt="kuva1">
-            <img src="/common/kuvat/sertifikaatit/inbound-marketing-sertifikaatti.png" alt="kuva2">
-            <img src="/common/kuvat/sertifikaatit/PowerAutomate-sertifikaatti.png" alt="kuva3">
-            <img src="/common/kuvat/sertifikaatit/SocialMedia-sertifikaatti.png" alt="kuva4">
-            <img src="/common/kuvat/sertifikaatit/VSCode-sertifikaatti.png" alt="kuva5">
+            <img src="../common/kuvat/sertifikaatit/GitHub-sertifikaatti.png" alt="kuva1">
+            <img src="../common/kuvat/sertifikaatit/inbound-marketing-sertifikaatti.png" alt="kuva2">
+            <img src="../common/kuvat/sertifikaatit/PowerAutomate-sertifikaatti.png" alt="kuva3">
+            <img src="../common/kuvat/sertifikaatit/SocialMedia-sertifikaatti.png" alt="kuva4">
+            <img src="../common/kuvat/sertifikaatit/VSCode-sertifikaatti.png" alt="kuva5">
         </div>
         <button class="btn right" id="next"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
@@ -118,11 +118,11 @@
 
 
     <div class="galleria">
-        <a href="#" class="projektilinkki">PROJEKTIT</a><br><br>
+        <a href="../projects/projektit.html" class="projektilinkki">PROJEKTIT</a><br><br>
         <div class="gallery-grid">
-            <img src="/common/kuvat/projekti-kuvat/Näyttökuva 2025-11-01 215121.png" alt="HTML-sivu" class="gallery-item">
-            <img src="/common/kuvat/projekti-kuvat/SALAT6.png" alt="Tietokantasuunnittelu" class="gallery-item">
-            <img src="/common/kuvat/projekti-kuvat/TODOprojekti2.png" alt="ToDo-sovellus" class="gallery-item">
+            <img src="../common/kuvat/projekti-kuvat/Näyttökuva 2025-11-01 215121.png" alt="HTML-sivu" class="gallery-item">
+            <img src="../common/kuvat/projekti-kuvat/SALAT6.png" alt="Tietokantasuunnittelu" class="gallery-item">
+            <img src="../common/kuvat/projekti-kuvat/TODOprojekti2.png" alt="ToDo-sovellus" class="gallery-item">
             
         </div>
     </div>
@@ -136,7 +136,7 @@
 
 <div class="contact">
     <h2>Ota yhteyttä!</h2>
-    <form action="#"> 
+    <form method="POST" action="../php/send_mail.php"> 
         <label for="name">Etunimi: </label>
         <input type="text" id="name" name="name" required placeholder="Nimi...">
 
